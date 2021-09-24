@@ -6,3 +6,39 @@ thread apply all bt
 
 gdb --batch --ex r --ex bt -e-x q --args
 실행중인 프로그램이 죽을 때 벡트레이스 정보를 얻도록 한다.
+
+run [args]
+디버깅할 프로그램을 파라미터[args]와 함께 실행시킨다.
+
+break (b)
+함수에 중단점 설정
+
+backtrace
+현재 호풀 스택에 대한 백트레이스 덤프(bt)
+
+print expr 
+expr값 출력
+
+continue
+프로그램 계속 실행
+
+next 
+다음 줄까지만 실행, 함수 호출 시 함수 안으로 진입하진 않음
+
+step
+다음 줄까지만 실행, 함수 호출시 함수 안으로 진입
+
+clear 
+중단점을 지운다
+
+info break
+중단점 정보를 보여준다
+
+attach pid
+실행 중인 프로세스를 붙여 디버그할 수 있도록 한다.
+
+detach
+프로세스 분리
+
+list 
+소스코드 10줄 보여줌
