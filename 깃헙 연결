@@ -1,0 +1,11 @@
+깃허브 리눅스 연결
+파일 있는 폴더로 이동 후 
+
+처음 시작할때
+git init , git add .{~} , git commit -m "message" , git remote add origin(닉넴){github 주소.git}
+git push origin master(or branch), 후에 토큰으로 로그인
+
+후에
+git add.{~}
+git commit -m "message"
+git push origin {branch}
