@@ -1,0 +1,8 @@
+gdb --args
+디버깅할 프로그램에 직접 파라미터를 제공 (잘 모르겠음)
+
+thread apply all bt
+모든 스레드에 대해 백트레이스 정보를 덤프한다
+
+gdb --batch --ex r --ex bt -e-x q --args
+실행중인 프로그램이 죽을 때 벡트레이스 정보를 얻도록 한다.
